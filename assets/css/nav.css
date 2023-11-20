@@ -1,0 +1,40 @@
+/* nav CSS  */
+nav {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: max-content;
+  padding: 0.7rem 10px;
+  z-index: 2;
+  position: fixed;
+  bottom: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 0.8rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(15px);
+  font-size: 1.3rem;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: left;
+}
+.nav-link {
+  display: block;
+  color: var(--color-white);
+  text-align: center;
+  padding: 11px 16px;
+  text-decoration: none;
+  border-radius: 50px;
+  margin: 0 5px;
+}
+.nav-link:hover:not(.active) {
+  background-color: #111;
+}
+.active {
+  background-color: var(--color-primary);
+}

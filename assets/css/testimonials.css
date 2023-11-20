@@ -1,0 +1,35 @@
+.swiper {
+  width: 60%;
+  padding-bottom: 3rem;
+}
+.avtar {
+  height: 60px;
+  width: 60px;
+}
+.avtar img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50px;
+}
+.testimonials {
+  background-color: var(--color-bg-varient);
+  padding: 20px;
+  padding-bottom: 5px;
+  border-radius: 1rem;
+}
+.testimonials h6 {
+  font-size: 14px;
+}
+.testimonials p {
+  font-size: 14px;
+}
+.swiper-pagination-bullet-active {
+  background-color: var(--color-primary) !important;
+}
+.swiper-pagination-bullet {
+  background-color: var(--color-primary) !important;
+}
+.swiper-slide {
+  padding: 0 1rem;
+}

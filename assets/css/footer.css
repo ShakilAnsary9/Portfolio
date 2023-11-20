@@ -1,0 +1,13 @@
+#footer {
+  background-color: var(--color-secondary);
+  padding: 3rem 0 12rem 0;
+}
+.footer-social {
+  margin-top: 2rem;
+}
+.footer-social i {
+  margin: 0 10px;
+}
+.footer-social i:hover {
+  color: var(--color-bg-varient);
+}

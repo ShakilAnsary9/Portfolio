@@ -1,0 +1,85 @@
+.hero__container {
+  position: relative;
+}
+.hero__container h5 {
+  font-size: 0.9rem;
+  margin: 1rem 0;
+}
+.hero__container h5:first-child {
+  color: var(--color-white);
+}
+.hero-btn {
+  text-align: center;
+  margin: 4rem 0;
+}
+.hero-btn .outline-btn {
+  padding: 1rem 1rem;
+  border: 1px solid var(--color-primary);
+  border-radius: 5px;
+  margin: 0 10px;
+  transition: var(--transition);
+}
+.hero-btn .solid-btn {
+  padding: 1rem 1rem;
+  background-color: var(--color-primary);
+  color: var(--color-bg) !important;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.hero-btn .outline-btn:hover {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-white);
+  transition: var(--transition);
+  color: var(--color-bg);
+}
+
+.hero-btn .solid-btn:hover {
+  background-color: var(--color-white);
+  transition: var(--transition);
+}
+
+/* Header Socials CSS  */
+.header__socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  position: absolute;
+  bottom: 3rem;
+}
+.header__socials:after {
+  content: "";
+  width: 1px;
+  height: 2rem;
+  background-color: var(--color-primary);
+}
+
+/* Hero Image  */
+
+.my__img-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.me {
+  background: linear-gradient(var(--color-primary), transparent);
+  width: 22rem;
+  height: 30rem;
+  border-radius: 200px 200px 0 0;
+}
+.my__img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Scroll Btn CSS  */
+.scroll__down {
+  font-size: 0.8rem;
+  font-family: 400;
+  position: absolute;
+  right: 0;
+  bottom: 5rem;
+  transform: rotate(90deg);
+}

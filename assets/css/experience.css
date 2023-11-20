@@ -1,0 +1,18 @@
+.experience-box {
+  flex-wrap: wrap;
+  padding: 5px 30px;
+}
+.experience-content {
+  width: 50%;
+  text-align: left;
+  padding: 10px 0;
+}
+.experience-content i {
+  font-size: 22px;
+}
+.experience-content h4 {
+  margin-top: 5px;
+}
+.experience-content small {
+  opacity: 0.7;
+}

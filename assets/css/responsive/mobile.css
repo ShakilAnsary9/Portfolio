@@ -1,0 +1,50 @@
+/* Mobile CSS  */
+
+@media screen and (max-width: 768px) {
+  /* Hero Section  */
+  .header__socials {
+    display: none;
+  }
+  .scroll__down {
+    display: none;
+  }
+  .hero-setion {
+    margin-top: 3rem !important;
+  }
+  /* About Section */
+  .about__container {
+    grid-template-columns: 1fr;
+    gap: 5%;
+  }
+  .aboutimage-div .about__me {
+    width: 85%;
+  }
+  .about__cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .aboutimage-div {
+    display: flex;
+    justify-content: center;
+  }
+  .about-btn {
+    width: 100%;
+  }
+
+  /* Experience Section */
+  .experience-box {
+    padding: 0;
+  }
+  .experience {
+    margin: 10px 0;
+  }
+
+  /* Services  */
+  .service-card {
+    margin-bottom: 20px;
+  }
+
+  /* Testimonials  */
+  .swiper {
+    width: 100%;
+  }
+}

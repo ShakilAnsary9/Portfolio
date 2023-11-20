@@ -1,0 +1,71 @@
+.about__container {
+  display: grid;
+  grid-template-columns: 30% 50%;
+  gap: 15%;
+}
+.about__me {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--color-primary),
+    transparent
+  );
+}
+.about-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 2rem;
+  transform: rotate(10deg);
+  transition: var(--transition);
+}
+.about-img img:hover {
+  transform: rotate(0deg);
+  transition: var(--transition);
+}
+.about__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+.about__card {
+  background-color: var(--color-primary-varient);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  transition: var(--transition);
+}
+.about__card:hover {
+  background-color: transparent;
+  border: 1px solid var(--color-primary-varient);
+  transition: var(--transition);
+}
+.about__card i {
+  font-size: 2rem;
+  color: var(--color-primary);
+}
+.about__card h4 {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+.about__card small {
+  font-weight: 400;
+  color: var(--color-lighrt);
+}
+.about__content p {
+  margin: 2rem 0 2.7rem 0;
+}
+.about-btn {
+  padding: 15px 20px;
+  width: 25%;
+  text-align: center;
+  background-color: var(--color-primary);
+  border-radius: 15px;
+}
+.about-btn a {
+  color: var(--color-bg-varient);
+}

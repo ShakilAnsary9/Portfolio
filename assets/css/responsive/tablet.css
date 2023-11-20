@@ -1,0 +1,22 @@
+@media screen and (max-width: 992px) {
+  .about__container {
+    grid-template-columns: 100%;
+  }
+  .about__me {
+    width: 50%;
+  }
+  .aboutimage-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* My Experience */
+  .experience-box {
+    padding: 0;
+  }
+
+  /* Testimonials  */
+  .swiper {
+    width: 100%;
+  }
+}

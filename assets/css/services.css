@@ -1,0 +1,19 @@
+.service-card {
+  padding-top: 80px;
+}
+.card-head {
+  width: 100%;
+  height: 60px;
+  background-color: var(--color-secondary);
+  border-radius: 1rem;
+  color: var(--color-bg-varient);
+}
+.service-card i {
+  font-size: 22px;
+  padding-right: 5px;
+}
+.service-card li {
+  width: 100%;
+  font-size: 14px;
+  text-align: left;
+}

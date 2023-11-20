@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+/* Section CSS  */
+@import url(./assets/css/hero.css);
+@import url(./assets/css/nav.css);
+@import url(./assets/css/about.css);
+@import url(./assets/css/experience.css);
+@import url(./assets/css/services.css);
+@import url(./assets/css/portfolio.css);
+@import url(./assets/css/testimonials.css);
+@import url(./assets/css/contact.css);
+@import url(./assets/css/footer.css);
+
+/* Responsive CSS  */
+@import url(./assets/css/responsive/mobile.css);
+@import url(./assets/css/responsive/tablet.css);
+
+:root {
+  --color-bg: #0d2a47;
+  --color-bg-varient: #1d466f;
+  --color-primary: #4ad295;
+  --color-secondary: #b1b3f8;
+  --color-primary-varient: rgba(77, 181, 255, 0.4);
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.6);
+  --transition: all 400ms ease;
+}
+
+body {
+  background-color: var(--color-bg);
+  font-family: "Poppins", sans-serif;
+  color: var(--color-white);
+  background-image: url(./assets/image/shape-triangle.png);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+section {
+  margin-top: 8rem;
+}
+
+h2,
+h5 {
+  text-align: center;
+  color: var(--color-light);
+}
+
+.small-text-light {
+  color: var(--color-light);
+}
+
+section > h2 {
+  color: var(--color-primary);
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+  /* margin-top: -10px; */
+}
+
+section > h5 {
+  font-size: 0.9rem;
+}
+
+section h3 {
+  color: var(--color-primary);
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+
+section p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--color-light);
+}
+
+.text-light {
+  color: var(--color-light);
+}
+
+a {
+  color: var(--color-primary);
+  transition: var(--transition);
+  text-decoration: none;
+  font-weight: 400;
+}
+
+a:hover {
+  color: var(--color-white);
+  transition: var(--transition);
+}
